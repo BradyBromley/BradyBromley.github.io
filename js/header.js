@@ -1,6 +1,6 @@
-const template = document.createElement('template');
+const headerTemplate = document.createElement('template');
 
-template.innerHTML = `
+headerTemplate.innerHTML = `
     <div id="navigation">    
     <h1>Brady Bromley</h1>
     <ul class="navbar">
@@ -10,5 +10,11 @@ template.innerHTML = `
     </ul>
     </div>
 `;
+document.body.prepend(headerTemplate.content);
 
-document.body.prepend(template.content);
+document.getElementById("wrapper").innerHTML += `
+<div class="footer">
+    <i class="fa fa-github-square" style="font-size: 36px;"></i>
+    <i class="fa fa-linkedin-square" style="font-size: 36px;"></i>
+    </div>
+`;
