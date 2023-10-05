@@ -11,10 +11,3 @@ headerTemplate.innerHTML = `
     </div>
 `;
 document.body.prepend(headerTemplate.content);
-
-document.getElementById("wrapper").innerHTML += `
-<div class="footer">
-    <i class="fa fa-github-square" style="font-size: 36px;"></i>
-    <i class="fa fa-linkedin-square" style="font-size: 36px;"></i>
-    </div>
-`;
