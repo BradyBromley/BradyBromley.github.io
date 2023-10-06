@@ -3,6 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-image: repeating-linear-gradient(45deg, lightgrey, lightgrey 8px, rgba(220,220,220,.5) 8px, rgba(220,220,220,.5) 10px);
+    min-width: 300px;
 }
 
 h1 {
@@ -85,17 +86,73 @@ ul#projects {
     width: 100%;
     padding: 0;
     margin: 10px auto 10px auto;
+    text-align: center;
 }
 
 .project {
     display: inline-block;
     position: relative;
-    background-color:rgb(207, 233, 255);
-    height: 550px;
-    width: 230px;
+    height: 225px;
+    width: 300px;
     margin: 5px;
     border: 3px;
     border-radius: 15px;
+}
+
+.projectDescription {
+    position: absolute;
+    background-color: rgba(30, 30, 30, 0.7);
+    height: 75px;
+    width: 100%;
+    bottom: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.name {
+    color: white;
+    font-size: 16px;
+    margin: 5px 0px 5px 0px;
+}
+
+.description {
+    color: lightgrey;
+    font-size: 11px;
+    margin: 0px;
+}
+
+#weatherApp {
+    background-image: url('../images/weather.png');
+    background-size: contain;
+
+}
+
+/*
+@media screen and (max-width: 992px) {
+    .project {
+        width: 46%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project {
+        width: 46%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .project {
+        width: 92%;
+        padding: 0;
+    }
+}
+*/
+.projectImage {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 /*
