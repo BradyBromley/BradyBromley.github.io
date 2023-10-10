@@ -1,5 +1,6 @@
 /* General Format */
 body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
     padding: 0px;
     background-image: repeating-linear-gradient(45deg, lightgrey, lightgrey 8px, rgba(220,220,220,.5) 8px, rgba(220,220,220,.5) 10px);
@@ -89,6 +90,10 @@ ul#projects {
     text-align: center;
 }
 
+ul#projects a {
+    text-decoration: none;
+}
+
 .project {
     display: inline-block;
     position: relative;
@@ -121,59 +126,30 @@ ul#projects {
     margin: 0px;
 }
 
-#weatherApp {
-    background-image: url('../images/weather.png');
-    background-size: contain;
-
-}
-
-/*
-@media screen and (max-width: 992px) {
-    .project {
-        width: 46%;
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .project {
-        width: 46%;
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .project {
-        width: 92%;
-        padding: 0;
-    }
-}
-*/
 .projectImage {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-/*
-@media screen and (max-width: 992px) {
-    ul#projects {
-        width: 720px;
-        padding: 0;
-    }
+#weatherApp {
+    background-image: url('../images/weather.png');
+    background-size: contain;
+
 }
 
-@media screen and (max-width: 768px) {
-    ul#projects {
-        width: 480px;
-        padding: 0;
-    }
+/* Resume */
+#resume {
+    text-align: center;
 }
 
-@media screen and (max-width: 576px) {
-    ul#projects {
-        width: 240px;
-        padding: 0;
-    }
+#resume a {
+    text-decoration: none;
 }
-*/
+
+/* About */
+.aboutText {
+    width: 70%;
+    margin: 0px auto 20px auto;
+}
+
