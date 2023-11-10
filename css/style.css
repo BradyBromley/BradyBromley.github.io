@@ -135,7 +135,11 @@ ul#projects a {
 #weatherApp {
     background-image: url('../images/weather.png');
     background-size: contain;
+}
 
+#raytracer {
+    background-image: url('../images/raytracer.png');
+    background-size: contain;
 }
 
 /* Resume */
