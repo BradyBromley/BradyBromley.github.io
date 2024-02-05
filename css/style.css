@@ -142,6 +142,11 @@ ul#projects a {
     background-size: contain;
 }
 
+#healthCareManagement {
+    background-image: url('../images/healthCare.png');
+    background-size: contain;
+}
+
 /* Resume */
 #resume {
     text-align: center;
