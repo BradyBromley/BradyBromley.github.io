@@ -147,6 +147,11 @@ ul#projects a {
     background-size: contain;
 }
 
+#stardewFarmIconsOnLoadScreen {
+    background-image: url('../images/stardewFarmIconsOnLoadScreen.png');
+    background-size: contain;
+}
+
 /* Resume */
 #resume {
     text-align: center;
